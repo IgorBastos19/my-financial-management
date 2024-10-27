@@ -25,6 +25,7 @@ const Login = () => {
           },
         ]}
         buttonText="Logar" // Texto do botão
+        buttonLink="dashboard/initial-page"
         signupText={{ text: "Cadastre-se aqui", href: "register" }} // Texto e link de cadastro
       />
     </div>

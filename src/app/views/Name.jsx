@@ -1,29 +1,28 @@
-// Login.jsx
 import React from "react";
 import CardForm from "../components/forms/Card-Form.jsx";
 
-const Login = () => {
+const Name = () => {
   return (
     <div
       style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
     >
       <CardForm
-        title="Vamos Começar"
-        subheader="Cadastre seu e-mail"
+        title="Qual o seu nome?"
+        subheader="Digite abaixo como você deseja ser chamado"
         fields={[
           {
-            label: "Email",
-            type: "email",
+            label: "Digit aqui o seu nome",
+            type: "text",
             margin: "normal",
             variant: "outlined",
           },
         ]}
         buttonText="Avançar" // Texto do botão
-        buttonLink="register/confirm-email"
+        buttonLink="address"
         signupText={null} // Texto e link de cadastro
       />
     </div>
   );
 };
 
-export default Login;
+export default Name;

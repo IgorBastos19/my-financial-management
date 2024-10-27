@@ -1,9 +1,9 @@
-import Password from "../../../views/Password.jsx";
+import ConfirmEmail from "../../../views/ConfirmEmail";
 
 export default function password() {
   return (
     <div className="container ">
-      <Password />
+      <ConfirmEmail />
     </div>
   );
 }

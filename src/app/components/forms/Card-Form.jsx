@@ -3,7 +3,14 @@ import { Card, CardHeader, CardContent } from "@mui/material";
 import Form from "./Form";
 import CardActionsContent from "./CardActionsContent";
 
-const CardForm = ({ title, subheader, fields, buttonText, signupText }) => {
+const CardForm = ({
+  title,
+  subheader,
+  fields,
+  buttonText,
+  signupText,
+  buttonLink,
+}) => {
   return (
     <Card sx={{ maxWidth: 345, padding: 2 }}>
       <CardHeader
@@ -14,7 +21,11 @@ const CardForm = ({ title, subheader, fields, buttonText, signupText }) => {
       <CardContent>
         <Form fields={fields} />
       </CardContent>
-      <CardActionsContent buttonText={buttonText} signupText={signupText} />
+      <CardActionsContent
+        buttonText={buttonText}
+        buttonLink={buttonLink}
+        signupText={signupText}
+      />
     </Card>
   );
 };
