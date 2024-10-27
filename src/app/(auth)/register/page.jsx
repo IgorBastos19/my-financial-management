@@ -1,5 +1,4 @@
-import Register from "../../views/(auth)/register/Register";
-import "../../styles/login.css";
+import Register from "../../views/Register.jsx";
 
 export default function register() {
   return (

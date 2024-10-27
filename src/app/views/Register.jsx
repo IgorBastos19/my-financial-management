@@ -8,8 +8,8 @@ const Login = () => {
       style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
     >
       <CardForm
-        title="Bem-vindo"
-        subheader="Faça login com e-mail e senha"
+        title="Vamos Começar"
+        subheader="Cadastre seu e-mail"
         fields={[
           {
             label: "Email",
@@ -17,15 +17,9 @@ const Login = () => {
             margin: "normal",
             variant: "outlined",
           },
-          {
-            label: "Senha",
-            type: "password",
-            margin: "normal",
-            variant: "outlined",
-          },
         ]}
-        buttonText="Logar" // Texto do botão
-        signupText={{ text: "Cadastre-se aqui", href: "register" }} // Texto e link de cadastro
+        buttonText="Avançar" // Texto do botão
+        signupText={null} // Texto e link de cadastro
       />
     </div>
   );
