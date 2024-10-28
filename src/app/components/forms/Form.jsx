@@ -12,6 +12,7 @@ const Form = ({ fields }) => {
           type={field.type}
           margin={field.margin || "normal"}
           variant={field.variant || "outlined"}
+          required={field.required || false} // Adiciona o atributo "required" caso seja necessário
         />
       ))}
     </form>

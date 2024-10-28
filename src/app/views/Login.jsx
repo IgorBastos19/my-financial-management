@@ -16,12 +16,14 @@ const Login = () => {
             type: "email",
             margin: "normal",
             variant: "outlined",
+            required: true, // Adiciona o atributo "required" caso seja necessário
           },
           {
             label: "Senha",
             type: "password",
             margin: "normal",
             variant: "outlined",
+            required: true,
           },
         ]}
         buttonText="Logar" // Texto do botão

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { TextField } from "@mui/material";
 
-const Input = ({ label, type, margin, variant }) => {
+const Input = ({ label, type, margin, variant, required }) => {
   const [error, setError] = useState(false); // Estado para controlar o erro
   const [helperText, setHelperText] = useState(""); // Texto de ajuda para exibir o erro
 
@@ -32,6 +32,7 @@ const Input = ({ label, type, margin, variant }) => {
       error={error} // Exibe o erro no campo se `error` for true
       helperText={helperText} // Exibe o texto de ajuda se houver erro
       onBlur={handleBlur} // Chama a validação quando o campo perde o foco
+      required={required}
     />
   );
 };
