@@ -1,7 +1,7 @@
 export default function dashboard() {
   return (
     <div>
-      <h1>oi</h1>
+      <h1>Tela Inicial do Cliente</h1>
     </div>
   );
 }

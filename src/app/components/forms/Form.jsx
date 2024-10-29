@@ -20,13 +20,3 @@ const Form = ({ fields }) => {
 };
 
 export default Form;
-
-/* 
-    <TextField
-  label="Senha"
-  type="password"
-  fullWidth
-  margin="normal"
-  variant="outlined"
-/>
-*/

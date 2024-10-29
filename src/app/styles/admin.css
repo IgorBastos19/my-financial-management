@@ -1,0 +1,12 @@
+/* Define o estilo do header */
+.header {
+  position: fixed; /* Fixa o header no topo da tela */
+  top: 0; /* Alinha ao topo */
+  left: 0; /* Alinha à esquerda */
+  width: 100%; /* Ocupa toda a largura */
+  background-color: #333; /* Cor de fundo para o header */
+  color: white; /* Cor do texto */
+  padding: 16px; /* Espaçamento interno */
+  text-align: left; /* Sobrescreve a centralização, se necessário */
+  z-index: 1000; /* Garante que o header fique sobre outros elementos */
+}
